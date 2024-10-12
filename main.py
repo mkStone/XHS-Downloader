@@ -7,7 +7,7 @@ from source import cli
 
 
 async def example():
-    """通过代码设置参数，适合二次开发"""
+    """通过代码设置参数，适合二次开发，改动"""
     # 示例链接
     error_link = "https://github.com/JoeanAmier/XHS_Downloader"
     demo_link = "https://www.xiaohongshu.com/explore/xxxxxxxxxx"
@@ -16,7 +16,7 @@ async def example():
     work_path = "D:\\"  # 作品数据/文件保存根路径，默认值：项目根路径
     folder_name = "Download"  # 作品文件储存文件夹名称（自动创建），默认值：Download
     user_agent = ""  # 请求头 User-Agent，可选参数
-    cookie = ""  # 小红书网页版 Cookie，无需登录，必需参数
+    cookie = ""   # 小红书网页版 Cookie，无需登录，必需参数
     proxy = None  # 网络代理
     timeout = 5  # 请求数据超时限制，单位：秒，默认值：10
     chunk = 1024 * 1024 * 10  # 下载文件时，每次从服务器获取的数据块大小，单位：字节
